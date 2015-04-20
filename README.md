@@ -32,7 +32,7 @@ Just reading [this excellent book](http://obeythetestinggoat.com/).
 
 6. Install required dependencies:
 
-    pip3 install django==1.7
-    pip3 install --upgrade selenium
+    `pip3 install django==1.7`
+    `pip3 install --upgrade selenium`
 
 
