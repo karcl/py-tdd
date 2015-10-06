@@ -19,7 +19,7 @@ Just reading [this excellent book](http://obeythetestinggoat.com/).
     export WORKON_HOME=$HOME/.virtualenvs
     export PROJECT_HOME=$HOME/prj
     export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-    source /usr/local/bin/virtualenvwrapper.sh
+    source $HOME/.local/bin/virtualenvwrapper.sh
     ```
 
 4. Source your new configuration:
@@ -32,7 +32,7 @@ Just reading [this excellent book](http://obeythetestinggoat.com/).
 
 6. Install required dependencies:
 
-    `pip3 install django==1.7`
+    `pip3 install django==1.8`
     `pip3 install --upgrade selenium`
 
 
